@@ -1,0 +1,17 @@
+server:
+  port: 6001
+
+eureka:
+  instance:
+    # eureka服务的实例的名称
+    hostname: eureka6001.com
+  client:
+    # 表示不向注册中心注册自己
+    registerWithEureka: false
+    # 此客户端是否获取eureka服务器注册表上的注册信息
+    fetchRegistry: false
+    # 设置与Eureka Server交互的地址查询服务和注册服务都需要依赖这个地址
+    serviceUrl:
+      defaultZone: http://eureka6002.com:6002/eureka/,http://eureka6003.com:6003/eureka/
+  server:
+    enable-self-preservation: false
