@@ -14,6 +14,11 @@
         <module>microservicecloud-eureka-6001</module>
         <module>microservicecloud-eureka-6002</module>
         <module>microservicecloud-eureka-6003</module>
+        <module>microservicecloud-provider-item-8010</module>
+        <module>microservicecloud-provider-item-8011</module>
+        <module>microservicecloud-consumer-item-fegin</module>
+        <module>microservicecloud-provider-item-hystrix-8100</module>
+        <module>microservicecloud-zuul-gateway-5555</module>
     </modules>
 
     <packaging>pom</packaging>

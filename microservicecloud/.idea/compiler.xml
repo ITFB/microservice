@@ -8,9 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="microservicecloud-provider-item-8001" />
         <module name="microservicecloudconsumeritem8002" />
+        <module name="microservicecloudconsumeritemfegin" />
         <module name="microservicecloudeureka6001" />
         <module name="microservicecloudeureka6002" />
         <module name="microservicecloudeureka6003" />
+        <module name="microservicecloudprovideritem8010" />
+        <module name="microservicecloudprovideritem8011" />
+        <module name="microservicecloudprovideritemhystrix8100" />
+        <module name="microservicecloudzuulgateway5555" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

@@ -12,7 +12,7 @@ import java.util.List;
 @RestController
 public class ItemController_Consumer {
 
-    private static final String REST_URL_PREFIX = "http://localhost:8001";
+    private static final String REST_URL_PREFIX = "http://MICROSERVICECLOUD-ITEM";
     @Autowired
     private RestTemplate restTemplate;
 

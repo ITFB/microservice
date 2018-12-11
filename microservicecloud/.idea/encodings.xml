@@ -4,9 +4,14 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservicecloud-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservicecloud-consumer-item-8002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-consumer-item-fegin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservicecloud-eureka-6001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservicecloud-eureka-6002" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservicecloud-eureka-6003" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservicecloud-provider-item-8001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-provider-item-8010" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-provider-item-8011" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-provider-item-hystrix-8100" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-zuul-gateway-5555" charset="UTF-8" />
   </component>
 </project>

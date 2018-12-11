@@ -1,0 +1,37 @@
+
+
+mybatis:
+  config-location: classpath:mybatis/sqlMapConfig.xml
+  type-aliases-package: com.richard.springcloud.entity
+  mapper-locations: classpath:mybatis/mapper/*.xml
+
+
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://localhost:3306/ebuy
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: heyadong
+  # very important
+  application:
+    name: microservicecloud-item
+server:
+  port: 8011
+
+
+# 客户端注册进eureka服务列表内
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eureka6001.com:6001/eureka/,http://eureka6002.com:6002/eureka/,http://eureka6003.com:6003/eureka/
+    healthcheck:
+      enabled: true
+  instance:
+    instance-id: microservicecloud-item8011
+    # lease-expiration-duration-in-seconds: 10
+    # lease-renewal-interval-in-seconds: 10
+info:
+  app.name: microservicecloud-item-8001
+
+
